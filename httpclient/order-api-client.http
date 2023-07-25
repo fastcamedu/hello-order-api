@@ -1,0 +1,9 @@
+### GET request with a header
+GET http://localhost:18082/orders/
+Accept: application/json
+
+### GET Order by Order ID
+GET http://localhost:18082/orders/100
+
+### POST Order and create kafka message by Order ID
+POST http://localhost:18082/orders/100
